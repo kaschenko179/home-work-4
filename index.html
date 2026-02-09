@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS селектори та вага</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<p>Селектор тегу p, вага 1</p>
+
+<p class="text-class">Селектор класу .text-class, вага 10</p>
+
+<p id="id-example">#id-example — селектор id, вага 100</p>
+
+<p id="unique">Селектор id #unique, вага 100</p>
+
+<p data-color="yes">Атрибутний селектор [data-color], вага 10</p>
+
+<div>
+  <span>Вкладений селектор div span, вага 2</span>
+</div>
+
+<section>
+  <p>Дочірній селектор section &gt; p, вага 2</p>
+</section>
+
+<p class="sequence">Послідовність селекторів p.sequence, вага 11</p>
+
+<div class="box" data-box="true">
+  Комбінація класу і атрибуту .box[data-box], вага 20
+</div>
+
+<div id="combo">
+  Комбінація тегу і id div#combo, вага 101
+</div>
+
+<article>
+  <div class="inner">
+    Комбінація вкладеності і класу article div.inner, вага 21
+  </div>
+</article>
+
+</body>
+</html>
